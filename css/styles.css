@@ -1,0 +1,93 @@
+/* Global styles */
+/* Box-sizing fix */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+hr {
+  clear: both;
+}
+
+/* Header */
+/* From product list */
+.header-wrapper, hr {
+  max-width: 95%;
+}
+.leftheader, .rightheader {
+  display: inline-block;
+  height: 35px;
+  margin-top: 2%;
+}
+.leftheader {
+  width: 30%;
+  float left;
+  margin-left: 3%;
+}
+.rightheader {
+  text-align: right;
+  float: right;
+  padding-top: 13px;
+}
+.checkbox {
+  align: left;
+}
+header p, header h1 {
+  display: inline;
+}
+header p {
+  padding-left: 10px;
+}
+/* From product add */
+
+/* Main */
+/* From product list */
+li {
+  list-style-type: none; /* Убираем маркеры */
+}
+.grid-container {
+  max-width: 95%;
+  background: lightblue;
+  margin: 0 3%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  /* grid-auto-columns: */
+  /* grid-auto-rows */
+  grid-gap: 2%;
+}
+.grid-item {
+  text-align: center;
+  min-width: 200px;
+  min-height: 50px;
+  border: 1px solid black;
+  grid-gap: 2%;
+}
+.checkbox {
+  padding-right: 90%;
+}
+/* From product add */
+.flex-container {
+  display: flex;
+  width: 25%;
+  max-height: 5%;
+  margin: 0 3%;
+}
+.flex-item {
+  flex: 1 1 auto;
+  width: 10%;
+  text-decoration: none;
+}
+.switcher {
+  display: inline-block;
+  margin-left: 3%;
+}
+.form {
+  clear: both;
+  margin-left: 3%;
+}
+/* Footer */
+footer {
+  background: darkblue;
+}
